@@ -1,0 +1,1 @@
+{"resourceType":"Medication","id":"UKCore-Medication-Extension-MedicationTradeFamily-Example","extension":[{"url":"https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationTradeFamily","valueCodeableConcept":{"coding":[{"system":"http://snomed.info/sct","code":"9298001000001101","display":"Panadol Extra"}]}}]}

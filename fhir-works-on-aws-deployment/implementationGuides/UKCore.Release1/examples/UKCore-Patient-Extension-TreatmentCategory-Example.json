@@ -1,0 +1,1 @@
+{"resourceType":"Patient","id":"UKCore-Patient-Extension-TreatmentCategory-Example","extension":[{"url":"https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-TreatmentCategory","valueCodeableConcept":{"coding":[{"system":"https://fhir.hl7.org.uk/CodeSystem/UKCore-TreatmentCategory","code":"4","display":"To pay all fees"}]}}]}

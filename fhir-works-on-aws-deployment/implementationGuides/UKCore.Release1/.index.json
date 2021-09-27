@@ -1,0 +1,1426 @@
+{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "CodeSystem-NHSDataModelAndDictionary-AdmissionMethod.json",
+      "resourceType": "CodeSystem",
+      "id": "NHSDataModelAndDictionary-AdmissionMethod",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-AdmissionMethod",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-NHSDataModelAndDictionary-DischargeDestination.json",
+      "resourceType": "CodeSystem",
+      "id": "NHSDataModelAndDictionary-DischargeDestination",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-DischargeDestination",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-NHSDataModelAndDictionary-DischargeMethod.json",
+      "resourceType": "CodeSystem",
+      "id": "NHSDataModelAndDictionary-DischargeMethod",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-DischargeMethod",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-NHSDataModelAndDictionary-OutcomeOfAttendance.json",
+      "resourceType": "CodeSystem",
+      "id": "NHSDataModelAndDictionary-OutcomeOfAttendance",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-OutcomeOfAttendance",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-NHSDataModelAndDictionary-PersonMaritalStatusCode.json",
+      "resourceType": "CodeSystem",
+      "id": "NHSDataModelAndDictionary-PersonMaritalStatusCode",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-PersonMaritalStatusCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-NHSDataModelAndDictionary-PersonStatedGenderCode.json",
+      "resourceType": "CodeSystem",
+      "id": "NHSDataModelAndDictionary-PersonStatedGenderCode",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-PersonStatedGenderCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-NHSDataModelAndDictionary-SourceOfAdmission.json",
+      "resourceType": "CodeSystem",
+      "id": "NHSDataModelAndDictionary-SourceOfAdmission",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-SourceOfAdmission",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-AdditionalPersonRelationshipRole.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-AdditionalPersonRelationshipRole",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-AdditionalPersonRelationshipRole",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-AddressKeyType.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-AddressKeyType",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-AddressKeyType",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-ConditionEpisodicity.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-ConditionEpisodicity",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-ConditionEpisodicity",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-ConsentUpdateMode.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-ConsentUpdateMode",
+      "url": "https://fhir.hl7.org.uk/Codesystem/UKCore-ConsentUpdateMode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-DateTimeType.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-DateTimeType",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-DateTimeType",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-DeathNotificationStatus.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-DeathNotificationStatus",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-DeathNotificationStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-EthnicCategory.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-EthnicCategory",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategory",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-EthnicCategoryEngland.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-EthnicCategoryEngland",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategoryEngland",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-EthnicCategoryScotland.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-EthnicCategoryScotland",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategoryScotland",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-EthnicCategoryWales.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-EthnicCategoryWales",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategoryWales",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-HumanLanguage.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-HumanLanguage",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-HumanLanguage",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-LanguageAbilityMode.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-LanguageAbilityMode",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-LanguageAbilityMode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-LanguageAbilityProficiency.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-LanguageAbilityProficiency",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-LanguageAbilityProficiency",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-ListEmptyReasonCode.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-ListEmptyReasonCode",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-ListEmptyReasonCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-ListWarningCode.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-ListWarningCode",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-ListWarningCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-MedicationChangeStatus.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-MedicationChangeStatus",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationChangeStatus",
+      "version": "1.0.1"
+    },
+    {
+      "filename": "CodeSystem-UKCore-MedicationPrescribingAgency.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-MedicationPrescribingAgency",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingAgency",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-MedicationPrescribingOrganization.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-MedicationPrescribingOrganization",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganization",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-MedicationRequestCategory.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-MedicationRequestCategory",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationRequestCategory",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-MedicationRequestCourseOfTherapy.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-MedicationRequestCourseOfTherapy",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationRequestCourseOfTherapy",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-MedicationStatementCategory.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-MedicationStatementCategory",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationStatementCategory",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-MedicationSupplyType.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-MedicationSupplyType",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationSupplyType",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-MessageEvent.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-MessageEvent",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-MessageEvent",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-NHSNumberVerificationStatus.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-NHSNumberVerificationStatus",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-OtherContactSystem.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-OtherContactSystem",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-OtherContactSystem",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-OverseasVisitorChargingCategory.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-OverseasVisitorChargingCategory",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-OverseasVisitorChargingCategory",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-PersonMaritalStatus.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-PersonMaritalStatus",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-PersonMaritalStatus",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-PreferredContactMethod.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-PreferredContactMethod",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-PreferredContactMethod",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-PreferredWrittenCommunicationFormat.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-PreferredWrittenCommunicationFormat",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-PreferredWrittenCommunicationFormat",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-PrescriptionType.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-PrescriptionType",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-PrescriptionType",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-RecordStandardHeadings.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-RecordStandardHeadings",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-RecordStandardHeadings",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-ResidentialStatus.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-ResidentialStatus",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-ResidentialStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-SDSJobRoleName.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-SDSJobRoleName",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "CodeSystem-UKCore-TreatmentCategory.json",
+      "resourceType": "CodeSystem",
+      "id": "UKCore-TreatmentCategory",
+      "url": "https://fhir.hl7.org.uk/CodeSystem/UKCore-TreatmentCategory",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ConceptMap-UKCore-AdministrativeGender.json",
+      "resourceType": "ConceptMap",
+      "id": "UKCore-AdministrativeGender",
+      "url": "https://fhir.hl7.org.uk/ConceptMap/ConceptMap-UKCore-AdministrativeGender",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ConceptMap-UKCore-ConditionEpisodicity.json",
+      "resourceType": "ConceptMap",
+      "id": "UKCore-ConditionEpisodicity",
+      "url": "https://fhir.hl7.org.uk/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ConceptMap-UKCore-MaritalStatus.json",
+      "resourceType": "ConceptMap",
+      "id": "UKCore-MaritalStatus",
+      "url": "https://fhir.hl7.org.uk/ConceptMap/ConceptMap-UKCore-MaritalStatus",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-AddressKey.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-AddressKey",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-AdmissionMethod.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-AdmissionMethod",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AdmissionMethod",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-AllergyIntoleranceEnd.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-AllergyIntoleranceEnd",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-AnaestheticIssues.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-AnaestheticIssues",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AnaestheticIssues",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-BirthSex.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-BirthSex",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-BirthSex",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-CareSettingType.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-CareSettingType",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-CareSettingType",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-ClinicalSetting.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-ClinicalSetting",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ClinicalSetting",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-CodingSCTDescId.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-CodingSCTDescId",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-CodingSCTDescId",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-ConditionEpisode.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-ConditionEpisode",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ConditionEpisode",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-ContactPreference.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-ContactPreference",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ContactPreference",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-ContactRank.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-ContactRank",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ContactRank",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-CopyCorrespondenceIndicator.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-CopyCorrespondenceIndicator",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-DeathNotificationStatus.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-DeathNotificationStatus",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-DeathNotificationStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-DischargeMethod.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-DischargeMethod",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-DischargeMethod",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-EffectivePeriod.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-EffectivePeriod",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EffectivePeriod",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-EmergencyCareDischargeStatus.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-EmergencyCareDischargeStatus",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-EncounterTransport.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-EncounterTransport",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EncounterTransport",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-EthnicCategory.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-EthnicCategory",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-Evidence.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-Evidence",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-Evidence",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-ListWarningCode.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-ListWarningCode",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ListWarningCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-MainLocation.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MainLocation",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MainLocation",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicalApplianceSupplier.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicalApplianceSupplier",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicalApplianceSupplier",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicationChangeSummary.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicationChangeSummary",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationChangeSummary",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicationDosageLastChanged.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicationDosageLastChanged",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicationPrescribingAgency.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicationPrescribingAgency",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicationPrescribingOrganization.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicationPrescribingOrganization",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationPrescribingOrganization",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicationQuantityText.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicationQuantityText",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationQuantityText",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicationRepeatInformation.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicationRepeatInformation",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicationStatementLastIssueDate.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicationStatementLastIssueDate",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-MedicationTradeFamily.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-MedicationTradeFamily",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationTradeFamily",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-NHSCommunication.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-NHSCommunication",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSCommunication",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-NHSNumberVerificationStatus.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-NHSNumberVerificationStatus",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-NominatedPharmacy.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-NominatedPharmacy",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NominatedPharmacy",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-OtherContactSystem.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-OtherContactSystem",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-OtherContactSystem",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-OutcomeOfAttendance.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-OutcomeOfAttendance",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-OutcomeOfAttendance",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-OverseasVisitorChargingCategory.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-OverseasVisitorChargingCategory",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-OverseasVisitorChargingCategory",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-ParentPresent.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-ParentPresent",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ParentPresent",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-PharmacistVerifiedIndicator.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-PharmacistVerifiedIndicator",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-PharmacistVerifiedIndicator",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-PreferredDispenserOrganization.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-PreferredDispenserOrganization",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-PreferredDispenserOrganization",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-PrescriptionType.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-PrescriptionType",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-PrescriptionType",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-ReligiousAffiliation.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-ReligiousAffiliation",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ReligiousAffiliation",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-ResidentialStatus.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-ResidentialStatus",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ResidentialStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-TreatmentCategory.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-TreatmentCategory",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-TreatmentCategory",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "Extension-UKCore-TypedDateTime.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-TypedDateTime",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-TypedDateTime",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "Extension-UKCore-VaccinationProcedure.json",
+      "resourceType": "StructureDefinition",
+      "id": "Extension-UKCore-VaccinationProcedure",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-VaccinationProcedure",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-AllergyIntolerance.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-AllergyIntolerance",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-AllergyIntolerance",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-AuditEvent.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-AuditEvent",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-AuditEvent",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "UKCore-Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Bundle",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-CarePlan.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-CarePlan",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-CarePlan",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-CareTeam.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-CareTeam",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-CareTeam",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Communication.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Communication",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Communication",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Composition",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Composition",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Condition.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Condition",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Consent.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Consent",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Consent",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Device.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Device",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "UKCore-DiagnosticReport.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-DiagnosticReport",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-DiagnosticReport",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-DocumentReference.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-DocumentReference",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-DocumentReference",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Encounter.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Encounter",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Encounter",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-EpisodeOfCare.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-EpisodeOfCare",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-EpisodeOfCare",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Immunization.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Immunization",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Immunization",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-List.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-List",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-List",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Location.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Location",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Location",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-Medication.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Medication",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Medication",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-MedicationAdministration.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-MedicationAdministration",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationAdministration",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-MedicationDispense.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-MedicationDispense",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationDispense",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-MedicationRequest.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-MedicationRequest",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationRequest",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-MedicationStatement.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-MedicationStatement",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationStatement",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-MessageHeader.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-MessageHeader",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Observation.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Observation",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation",
+      "version": "2.0.2"
+    },
+    {
+      "filename": "UKCore-OperationOutcome.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-OperationOutcome",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-OperationOutcome",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "UKCore-Organization.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Organization",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Organization",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-Patient.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Patient",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-Practitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Practitioner",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Practitioner",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-PractitionerRole.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-PractitionerRole",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-PractitionerRole",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-Procedure.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Procedure",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Provenance.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Provenance",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Provenance",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "UKCore-Questionnaire.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Questionnaire",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Questionnaire",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "UKCore-QuestionnaireResponse.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-QuestionnaireResponse",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-QuestionnaireResponse",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "UKCore-RelatedPerson.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-RelatedPerson",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "UKCore-ServiceRequest.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-ServiceRequest",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-ServiceRequest",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-Specimen.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-Specimen",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Specimen",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "UKCore-VitalSigns-Observation.json",
+      "resourceType": "StructureDefinition",
+      "id": "UKCore-VitalSigns-Observation",
+      "url": "https://fhir.hl7.org.uk/StructureDefinition/UKCore-VitalSigns-Observation",
+      "version": "1.0.1"
+    },
+    {
+      "filename": "ValueSet-UKCore-ACVPU.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ACVPU",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ACVPU",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-AddressKeyType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-AddressKeyType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-AddressKeyType",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-AdmissionMethod.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-AdmissionMethod",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-AdmissionMethod",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-AllergyCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-AllergyCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-AllergyCode",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-AllergyExposureRoute.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-AllergyExposureRoute",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-AllergyExposureRoute",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-AllergyManifestation.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-AllergyManifestation",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-AllergyManifestation",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-AllergySubstance.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-AllergySubstance",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-AllergySubstance",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-BirthSex.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-BirthSex",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-BirthSex",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-BodySite.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-BodySite",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-BodySite",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-CareSettingType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-CareSettingType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-CareSettingType",
+      "version": "3.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-CompositionSectionCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-CompositionSectionCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-CompositionSectionCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ConditionCategory.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ConditionCategory",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ConditionCategory",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ConditionCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ConditionCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ConditionCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ConditionEpisode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ConditionEpisode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ConditionEpisode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ConditionEpisodicity.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ConditionEpisodicity",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ConditionEpisodicity",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-DateTimeType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-DateTimeType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-DateTimeType",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-DeathNotificationStatus.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-DeathNotificationStatus",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-DeathNotificationStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-DeviceType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-DeviceType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-DeviceType",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-DischargeDestination.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-DischargeDestination",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-DischargeDestination",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-DischargeMethod.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-DischargeMethod",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-DischargeMethod",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-DocumentType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-DocumentType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-DocumentType",
+      "version": "3.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-EmergencyCareDischargeStatus.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-EmergencyCareDischargeStatus",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-EmergencyCareDischargeStatus",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-EncounterType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-EncounterType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-EncounterType",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-EthnicCategory.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-EthnicCategory",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-EthnicCategory",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-FindingCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-FindingCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-FindingCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-HumanLanguage.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-HumanLanguage",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-HumanLanguage",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ImmunizationAdministrationBodySite.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ImmunizationAdministrationBodySite",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ImmunizationAdministrationBodySite",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ImmunizationExplanationReason.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ImmunizationExplanationReason",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ImmunizationExplanationReason",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-InspiredOxygen.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-InspiredOxygen",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-InspiredOxygen",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-LanguageAbilityMode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-LanguageAbilityMode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-LanguageAbilityMode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-LanguageAbilityProficiency.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-LanguageAbilityProficiency",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-LanguageAbilityProficiency",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ListCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ListCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ListCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ListEmptyReasonCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ListEmptyReasonCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ListEmptyReasonCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ListWarningCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ListWarningCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ListWarningCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationChangeStatus.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationChangeStatus",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationChangeStatus",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationCode",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationDosageMethod.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationDosageMethod",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationDosageMethod",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationDosageRoute.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationDosageRoute",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationDosageRoute",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationForm.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationForm",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationForm",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationPrecondition.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationPrecondition",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationPrecondition",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationPrescribingAgency.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationPrescribingAgency",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationPrescribingAgency",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationPrescribingOrganization.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationPrescribingOrganization",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationPrescribingOrganization",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationRequestCategory.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationRequestCategory",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationRequestCategory",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationRequestCourseOfTherapy.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationRequestCourseOfTherapy",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationRequestCourseOfTherapy",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationStatementCategory.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationStatementCategory",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationStatementCategory",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationSupplyType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationSupplyType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationSupplyType",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MedicationTradeFamily.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MedicationTradeFamily",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationTradeFamily",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-MessageEvent.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-MessageEvent",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-MessageEvent",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-NHSNumberVerificationStatus.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-NHSNumberVerificationStatus",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-NHSNumberVerificationStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ObservationMethod.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ObservationMethod",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ObservationMethod",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ObservationType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ObservationType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ObservationType",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-OtherContactSystem.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-OtherContactSystem",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-OtherContactSystem",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-OutcomeOfAttendance.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-OutcomeOfAttendance",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-OutcomeOfAttendance",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-OverseasVisitorChargingCategory.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-OverseasVisitorChargingCategory",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-OverseasVisitorChargingCategory",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-PersonMaritalStatusCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-PersonMaritalStatusCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-PersonMaritalStatusCode",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-PersonRelationshipType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-PersonRelationshipType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-PersonRelationshipType",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-PersonStatedGenderCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-PersonStatedGenderCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-PersonStatedGenderCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-PractitionerRoleCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-PractitionerRoleCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-PractitionerRoleCode",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-PreferredContactMethod.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-PreferredContactMethod",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-PreferredContactMethod",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-PreferredWrittenCommunicationFormat.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-PreferredWrittenCommunicationFormat",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-PreferredWrittenCommunicationFormat",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-PrescriptionType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-PrescriptionType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-PrescriptionType",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ProcedureCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ProcedureCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ProcedureCode",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ReasonImmunizationNotAdministered.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ReasonImmunizationNotAdministered",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ReasonImmunizationNotAdministered",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ReligiousAffiliation.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ReligiousAffiliation",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ReligiousAffiliation",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ReportCodeSnCT.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ReportCodeSnCT",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ReportCodeSnCT",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-ResidentialStatus.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-ResidentialStatus",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-ResidentialStatus",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-SDSJobRoleName.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-SDSJobRoleName",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-SDSJobRoleName",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-SourceOfAdmission.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-SourceOfAdmission",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-SourceOfAdmission",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-SpecimenBodySite.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-SpecimenBodySite",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-SpecimenBodySite",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-SpecimenType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-SpecimenType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-SpecimenType",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-SubstanceOrProductAdministrationRoute.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-SubstanceOrProductAdministrationRoute",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-SubstanceOrProductAdministrationRoute",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-TreatmentCategory.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-TreatmentCategory",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-TreatmentCategory",
+      "version": "2.0.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-VaccinationProcedure.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-VaccinationProcedure",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedure",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-VaccinationProcedureSupplementary.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-VaccinationProcedureSupplementary",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedureSupplementary",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-VaccineCode.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-VaccineCode",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-VaccineCode",
+      "version": "2.1.0"
+    },
+    {
+      "filename": "ValueSet-UKCore-VitalSignsObservationType.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-VitalSignsObservationType",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-VitalSignsObservationType",
+      "version": "2.0.1"
+    },
+    {
+      "filename": "ValueSet-UKCore-VitalSignsObservationValue.json",
+      "resourceType": "ValueSet",
+      "id": "UKCore-VitalSignsObservationValue",
+      "url": "https://fhir.hl7.org.uk/ValueSet/UKCore-VitalSignsObservationValue",
+      "version": "2.0.0"
+    }
+  ]
+}
