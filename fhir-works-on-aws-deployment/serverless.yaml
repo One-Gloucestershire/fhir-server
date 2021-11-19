@@ -35,7 +35,7 @@ custom:
 
 provider:
   name: aws
-  region: us-west-2
+  region: eu-west-2
   stage: dev
   runtime: nodejs12.x
   memorySize: 512
