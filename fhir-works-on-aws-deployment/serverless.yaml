@@ -680,6 +680,17 @@ resources:
                     Resource:
                       - !GetAtt DynamodbKMSKey.Arn
                       - !GetAtt ElasticSearchKMSKey.Arn
+            - PolicyName: 'CognitoPolicy'
+              PolicyDocument:
+                Version: '2012-10-17'
+                Statement:
+                  - Effect: Allow
+                    Action:
+                      - 'cognito-sync:*'
+                      - 'cognito-idp:*'
+                    Resource:
+                      - !Join ['',[!Sub 'arn:${AWS::Partition}:cognito-idp:${AWS::Region}:${AWS::AccountId}:userpool/', !Ref UserPool],]
+
       # Create a permissions boundary for role Serverless creates to manage Cloudwatch access
       # The default role has permission to create any role and attach any policy. Here we are restricting
       # the role to only create a specific role and attach only Cloudwatch publishing managed policy
