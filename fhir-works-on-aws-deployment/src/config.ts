@@ -34,7 +34,7 @@ const baseResources = fhirVersion === '4.0.1' ? BASE_R4_RESOURCES : BASE_STU3_RE
 const authService = IS_OFFLINE
     ? stubs.passThroughAuthz
     : new ServiceAccountHandler(RBACRules(baseResources), fhirVersion);
-const dynamoDbDataService = new DynamoDbDataService(DynamoDb, false, { enableMultiTenancy });
+const dynamoDbDataService = new DynamoDbDataService(DynamoDb, true, { enableMultiTenancy });
 const dynamoDbBundleService = new DynamoDbBundleService(DynamoDb, undefined, undefined, {
     enableMultiTenancy,
 });
